@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  min-height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+*,
+*::before,
+**::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+canvas {
+  border: 3px solid black;
+  margin: 0 1em;
+}
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+}
